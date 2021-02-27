@@ -117,7 +117,7 @@ hr {
 
 .footer .section {
     background-color: var(--primary-color);
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 
 .footer .heading,
