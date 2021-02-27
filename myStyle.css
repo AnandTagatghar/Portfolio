@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+:root {
+    /* --primary-color: #3B82F6; */
+    /* --secondary-color: #EFF6FF;
+    --dark-purple: #6366F1;
+    --light-gray: #BFDBFE;
+    --dark-gray: #6B7280; */
+    --primary-color: #D946EF;
+    --secondary-color: #FAE8FF;
+    --dark-purple: #6366F1;
+    --light-Fuchsia: #F5D0FE;
+    --dark-gray: #6B7280;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--secondary-color);
+    margin: 0rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary-button {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.un-bulleted-list {
+    list-style-type: none;
+    padding: 0rem;
+}
+
+.inline-lists li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.navigation ul {
+    text-align: end;
+}
+
+.brandName {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
+.hero-heading {
+
+
+    color: var(--dark-gray);
+}
+
+.inverted-heading {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 0;
+}
+
+.off-white {
+    background-color: var(--light-Fuchsia);
+}
+
+.footer .section {
+    background-color: var(--primary-color);
+    border-top-right-radius: 2rem;
+}
+
+.footer .heading,
+a {
+    color: white;
+    text-align: center;
+}
+
+.footer ul {
+    text-align: center;
+    padding: 0rem;
+}
+
+.social-icons img{
+    height: 2rem;
+}
